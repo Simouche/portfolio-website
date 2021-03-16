@@ -1,0 +1,291 @@
+[
+  {
+    "model": "my_profile.myprofile",
+    "pk": 1,
+    "fields": {
+      "fullname": "Wassim Chaguetmi",
+      "birth_date": "1995-06-30",
+      "email": "wassim.chaguetmi@gmail.com",
+      "phone": "799136332",
+      "profile_description": "Motivated enthusiastic developer,I constantly seek to improve my skills through leaving my comfort zone, I love facing new problems and solving them, hard worker, CODING EVERYDAY!",
+      "skills_description": "Coding turned from an intriguing subject to an undevided aspect of my life since I first tried my hand at it back in 2014, started with C++, Java, Different Web Languages, Python, But my Eternal love is JAVA! In the other hand, Databases modeling and conception runs in my veins.",
+      "about_intro": "I am CHAGUETMI Yousr ELLAH Wassim, born in June 1995, in love with IT since childhood, diving deeper in coding each day. Licence degree in Information Systems and Software Engineering, working on my Master on Natural Language Processing."
+    }
+  },
+  {
+    "model": "my_profile.links",
+    "pk": 1,
+    "fields": {
+      "social_media": "facebook",
+      "link": "https://www.facebook.com/wassim.chaguetmi",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.links",
+    "pk": 2,
+    "fields": {
+      "social_media": "instagram",
+      "link": "https://www.instagram.com/wassim_chaguetmi/",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.links",
+    "pk": 3,
+    "fields": {
+      "social_media": "twitter",
+      "link": "https://twitter.com/wassim_chag",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.stack",
+    "pk": 1,
+    "fields": {
+      "name": "JAVA SE",
+      "what_can_do_with": "Desktop developement",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.stack",
+    "pk": 2,
+    "fields": {
+      "name": "JAVA FX",
+      "what_can_do_with": "Desktop developement",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.stack",
+    "pk": 3,
+    "fields": {
+      "name": "PYTHON",
+      "what_can_do_with": "Web Developement, Natural Language Processing.",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.stack",
+    "pk": 4,
+    "fields": {
+      "name": "PHP",
+      "what_can_do_with": "Web Developement",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.stack",
+    "pk": 5,
+    "fields": {
+      "name": "ANDROID",
+      "what_can_do_with": "Native Mobile Developement",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.stack",
+    "pk": 6,
+    "fields": {
+      "name": "SQL",
+      "what_can_do_with": "Databases management (MariaDB, MySql, Postgre, SQLite...)",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.stack",
+    "pk": 7,
+    "fields": {
+      "name": "DJANGO",
+      "what_can_do_with": "Web Developement",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.stack",
+    "pk": 8,
+    "fields": {
+      "name": "Spring",
+      "what_can_do_with": "Web Developement",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.stack",
+    "pk": 9,
+    "fields": {
+      "name": "Maven",
+      "what_can_do_with": "Building Java Projects",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.stack",
+    "pk": 10,
+    "fields": {
+      "name": "Gradle",
+      "what_can_do_with": "Building Android Apps",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.workexperience",
+    "pk": 1,
+    "fields": {
+      "job_title": "Software Developer",
+      "start": "2018-07-01",
+      "end": "2018-10-31",
+      "company_name": "Inova DHC",
+      "description": "Designed and realised a decisional software for the small industry company, it manages the whole information system (employees, products, clients, deliveries...), since it wasn't that big i worked on it alone.",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.workexperience",
+    "pk": 2,
+    "fields": {
+      "job_title": "Android Applications Developer",
+      "start": "2019-05-01",
+      "end": "2019-09-30",
+      "company_name": "Astra IT Solutions",
+      "description": "As a freelancer, my experience in android mobile developement was needed as out-sourcing, to help the local dev team to accomplish the migration of the company's delivery app.",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.workexperience",
+    "pk": 3,
+    "fields": {
+      "job_title": "Software Devempement",
+      "start": "2017-12-01",
+      "end": "2018-01-15",
+      "company_name": "My University",
+      "description": "Developed a decisional matrix as an academic project.",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.workexperience",
+    "pk": 4,
+    "fields": {
+      "job_title": "Application Developement",
+      "start": "2018-02-01",
+      "end": "2018-05-31",
+      "company_name": "My University",
+      "description": "In a team of four, we developed a food delivery platform for the university, it had a restaurant side, client side and admin side, we did a web and mobile interface for each side, and i was in change of the database modeling and conception.",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.workexperience",
+    "pk": 5,
+    "fields": {
+      "job_title": "Web developement",
+      "start": "2019-04-01",
+      "end": "2019-04-30",
+      "company_name": "Freelancer at C'vader Voyage",
+      "description": "Developed a web platform for trips' booking with pure PHP.",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.workexperience",
+    "pk": 6,
+    "fields": {
+      "job_title": "Freelancer",
+      "start": "2019-06-15",
+      "end": "2019-07-31",
+      "company_name": "IT Creative",
+      "description": "developed a web platform and a mobile app, for events management, using Laravel and Android.",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.workexperience",
+    "pk": 7,
+    "fields": {
+      "job_title": "Dev Team Lead",
+      "start": "2019-08-01",
+      "end": "2019-09-14",
+      "company_name": "HACKATHON Tizi",
+      "description": "I lead the junior dev team, modelised and concepted the database, of an application for freelancer touristic guides in Algeria, we had the 3rd place.",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.workexperience",
+    "pk": 8,
+    "fields": {
+      "job_title": "Backend Engineer",
+      "start": "2019-08-01",
+      "end": null,
+      "company_name": "IT-GDS",
+      "description": "I manage information systems and project's backends, both web (django) and mobile (android), as I model the database, make backend functionalities, improve performance, build REST Apis to be consumed by the mobile apps.",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.education",
+    "pk": 1,
+    "fields": {
+      "diploma_title": "Baccalaureate",
+      "start": "2013-09-10",
+      "end": "2014-06-05",
+      "school_name": "MOhammed BOUSAIDI",
+      "description": "Had my Baccalaureate",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.education",
+    "pk": 2,
+    "fields": {
+      "diploma_title": "Licence in Information Systems and Software Enginering",
+      "start": "2014-09-09",
+      "end": "2018-06-05",
+      "school_name": "Saad Dahleb University -BLIDA 1-",
+      "description": "Got my licence degree in Information Systems and Software Engineering, from Saad Dahleb's University at BLIDA. I learned and practiced on how to concept and make ERPs and Softwares, models and solutions, and since i'm in love with coding, i added my touch in realising what i concept.",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.education",
+    "pk": 3,
+    "fields": {
+      "diploma_title": "Professional Master Degree in Natural Language Processing",
+      "start": "2018-09-09",
+      "end": "2020-06-07",
+      "school_name": "Saad Dahleb University -BLIDA 1-",
+      "description": "Since most of the leading topics nowadays, are all about AI, i chose to take the Natural Language Processing path, preparing my master degree, and working on some academic projects.",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.service",
+    "pk": 1,
+    "fields": {
+      "service_name": "Web Back-end Development",
+      "service_description": "Nicely structured and easy to read back-end development either in PHP or PYTHON(DJANGO)",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.service",
+    "pk": 2,
+    "fields": {
+      "service_name": "Desktop Software Developement",
+      "service_description": "Soft and performant JAVA/JAVA FX Programs, for any purpose needed (management, decisional, educational...)",
+      "owner": 1
+    }
+  },
+  {
+    "model": "my_profile.service",
+    "pk": 3,
+    "fields": {
+      "service_name": "Mobile Developement",
+      "service_description": "Swift, performant and responsive mobile applications for bussiness, social, educational, management...",
+      "owner": 1
+    }
+  }
+]
